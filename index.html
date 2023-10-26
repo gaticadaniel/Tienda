@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="src/capa_presentacion/css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        
+        <center><div class="container">
+            <h2>Iniciar Sesión</h2>
+            <form action="src/controlador/LoginServlet.java" method="POST">
+                <div class="form-group">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                </div>
+                <button type="submit">Iniciar Sesión</button>
+                
+            </center>
+            <div class="container">
+                <a href="#">Registrate</a>
+            </div>
+            
+        
+    </div>
+    
+    <!--<div class="container">
+        <form action="/src/capa_presentacion/registro.html" method="POST"></form>
+        <button type="submit">REGISTRATE</button>
+    </div>*/
+    -->
+</body>
+</html>
